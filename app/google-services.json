@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "205982562565",
+    "project_id": "hireme-910ac",
+    "storage_bucket": "hireme-910ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205982562565:android:ba91c9ce4ec3c134da5f6c",
+        "android_client_info": {
+          "package_name": "com.example.hireme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205982562565-tf4sa104nqgd64r0n8fb4os99or7p04s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTeSdHurkFcCJDSido1JfOju8AxNYExpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205982562565-tf4sa104nqgd64r0n8fb4os99or7p04s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

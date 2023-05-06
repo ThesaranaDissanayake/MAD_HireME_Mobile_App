@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:id="@+id/welcombar7"
+        android:layout_width="498dp"
+        android:layout_height="964dp"
+        android:background="@drawable/top_bg"
+        android:backgroundTint="#122177"
+        android:gravity="center"
+        android:text=""
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.361"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="321dp"
+        android:layout_height="106dp"
+        android:layout_marginBottom="132dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnOffer"
+        app:layout_constraintEnd_toEndOf="@+id/welcombar7"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="@+id/welcombar7"
+        app:srcCompat="@drawable/mainlogo" />
+
+    <TextView
+        android:id="@+id/welcomeText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="WELCOME TO"
+        android:textColor="#FFCCCC07"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/welcombar7"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="@+id/welcombar7" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello...!"
+        android:textColor="#FFCCCC07"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/welcomeText1"
+        app:layout_constraintEnd_toEndOf="@+id/welcombar7"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="@+id/welcombar7"
+        app:layout_constraintTop_toTopOf="@+id/welcombar7"
+        app:layout_constraintVertical_bias="0.801" />
+
+    <Button
+        android:id="@+id/btnOffer"
+        android:layout_width="319dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="#162676"
+        android:text="OFFER SKILL"
+        android:textColor="#FFCCCC07"
+        app:layout_constraintBottom_toTopOf="@+id/btnRequest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnRequest"
+        android:layout_width="319dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="#162676"
+        android:text="Request skill"
+        android:textColor="#FFCCCC07"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
