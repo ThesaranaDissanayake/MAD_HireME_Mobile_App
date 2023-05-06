@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "776075671145",
+    "project_id": "miniprojectdb-da13a",
+    "storage_bucket": "miniprojectdb-da13a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776075671145:android:2861d595030f9937e9d4f8",
+        "android_client_info": {
+          "package_name": "com.example.hireme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776075671145-71r6ue2epsig7ie36n9aujoa1nr4nc4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChhGxNvHQn1CJQqPOzkGrZ6mUexd0RE2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776075671145-71r6ue2epsig7ie36n9aujoa1nr4nc4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
